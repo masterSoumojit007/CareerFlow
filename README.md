@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CareerFlow: Job Board SaaS with Next.js, Inngest, Arcjet, and TailwindCSS
 
-## Getting Started
+Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier technologies to provide a seamless experience for job seekers and organizations. Whether you're a developer expanding your portfolio or a business recruiting top talent, **CareerFlow** is the solution for you. 🌟
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔐 **Authentication & Security**
+- **Arcjet Security**: Protects against XSS, SQL injection, and other common attacks.
+- **Auth.js**: Supports Google and GitHub OAuth for a smooth login experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 👥 **User Roles**
+- **Organization Role**:
+  - Add necessary information and upload a logo.
+- **Job Seeker Role**:
+  - Provide details and upload a CV in PDF format.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📝 **Job Post Management**
+- Custom salary range slider.
+- Rich text editor built with **Tiptap**.
+- Smooth image uploading with **Uploadthing**.
+- Configurable job listing durations (30, 60, 90 days).
 
-## Learn More
+### 📬 **Inngest Background Workflow**
+- Sends a summary of new job postings every two days for 30 days.
 
-To learn more about Next.js, take a look at the following resources:
+### 💳 **Stripe Payment Integration**
+- Handles job post payments.
+- Webhooks for activation and expiration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⏳ **Job Expiration**
+- Automatically marks job listings as expired after their duration.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📄 **Job Board Index Page**
+- Displays all job posts with:
+  - Filtering.
+  - Pagination.
+  - Suspense for better performance.
 
-## Deploy on Vercel
+### ⭐ **Favorites Route**
+- View all jobs marked as favorites.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🆔 **Job Post Details**
+- Shows job information with an "Apply" button.
+- Custom rate-limiting for bot protection.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🗂️ **CRUD Functionality**
+- View, edit, and delete posted jobs.
+
+---
+
+## 🛠️ **Technologies Used**
+
+| **Category**          | **Tech Stack**                                                |
+|-----------------------|--------------------------------------------------------------|
+| **Framework**         | [Next.js 15](https://nextjs.org)                             |
+| **Styling**           | [TailwindCSS](https://tailwindcss.com), [Shadcn/UI](https://ui.shadcn.com) |
+| **Database**          | [Neon Postgres](https://neon.tech/), [Prisma](https://prisma.io) |
+| **Authentication**    | [Auth.js](https://authjs.dev/)                               |
+| **Workflow**          | [Inngest](https://innge.st/yt-jm-1)                          |
+| **Security**          | [Arcjet](https://launch.arcjet.com/hIZ0QxX)                  |
+| **Payments**          | [Stripe](https://stripe.com/)                                |
+| **File Uploads**      | [Uploadthing](https://uploadthing.com/)                      |
+| **Validation**        | [Zod](https://zod.dev/)                                      |
+| **Hosting**           | [Vercel](https://vercel.com/)                                |
+| **APIs**              | [Google Cloud Console](https://console.cloud.google.com/)    |
+
+---
+
+## 🎨 **UI Highlights**
+- Fully responsive design for seamless use across devices.
+- Modern and clean architecture with performance optimization.
+- TailwindCSS and Shadcn UI for a polished look.
+
+---
+
+## 📬 **Background Workflow**
+
+Powered by **Inngest**, the application sends a summary of new job postings every two days for a period of 30 days.
+
+---
+
+## 📄 **Job Listings**
+
+- Filter, paginate, and view all active job postings.
+- Mark jobs as favorites for easy access.
+
+---
+
+## 📂 **CRUD Operations**
+
+Organizations can:
+- Create, view, edit, and delete job postings.
+
+---
+
+## ⭐ **Additional Features**
+- **Job Details Page**: Includes detailed job info with an "Apply" button.
+- **Rate Limiting**: Enhanced limits for authenticated users and bot protection.
+- **Job Expiration**: Automatically marks jobs as expired.
+
+---
+
+## 🌐 **Deployment**
+
+Easily deploy **CareerFlow** to **Vercel** for a production-ready application.
+
+---
+
+## 💬 **Connect with Me**
+
+- 🌟 [Arcjet](https://launch.arcjet.com/hIZ0QxX)
+- 🚀 [Inngest](https://innge.st/yt-jm-1)
+
+---
+
+## 📜 **License**
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy building with **CareerFlow**! 🚀
