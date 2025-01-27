@@ -7,46 +7,46 @@ Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier t
 ## 🌟 **Features**
 
 ### 🔐 **Authentication & Security**
-- **Arcjet Security**: Protects against XSS, SQL injection, and other common attacks.
-- **Auth.js**: Supports Google and GitHub OAuth for a smooth login experience.
+- 🛡️ **Arcjet Security**: Protects against XSS, SQL injection, and other common attacks.
+- 🔑 **Auth.js**: Supports Google and GitHub OAuth for a smooth login experience.
 
 ### 👥 **User Roles**
-- **Organization Role**:
+- 🏢 **Organization Role**:
   - Add necessary information and upload a logo.
-- **Job Seeker Role**:
+- 🧑‍💼 **Job Seeker Role**:
   - Provide details and upload a CV in PDF format.
 
 ### 📝 **Job Post Management**
-- Custom salary range slider.
-- Rich text editor built with **Tiptap**.
-- Smooth image uploading with **Uploadthing**.
-- Configurable job listing durations (30, 60, 90 days).
+- 💰 Custom salary range slider.
+- 🖋️ Rich text editor built with **Tiptap**.
+- 🖼️ Smooth image uploading with **Uploadthing**.
+- 🗓️ Configurable job listing durations (30, 60, 90 days).
 
 ### 📬 **Inngest Background Workflow**
-- Sends a summary of new job postings every two days for 30 days.
+- 📨 Sends a summary of new job postings every two days for 30 days.
 
 ### 💳 **Stripe Payment Integration**
-- Handles job post payments.
-- Webhooks for activation and expiration.
+- 💵 Handles job post payments.
+- 🔗 Webhooks for activation and expiration.
 
 ### ⏳ **Job Expiration**
-- Automatically marks job listings as expired after their duration.
+- 🕒 Automatically marks job listings as expired after their duration.
 
 ### 📄 **Job Board Index Page**
-- Displays all job posts with:
-  - Filtering.
-  - Pagination.
-  - Suspense for better performance.
+- 🗂️ Displays all job posts with:
+  - 🔍 Filtering.
+  - 📄 Pagination.
+  - ⚡ Suspense for better performance.
 
 ### ⭐ **Favorites Route**
-- View all jobs marked as favorites.
+- 🌟 View all jobs marked as favorites.
 
 ### 🆔 **Job Post Details**
-- Shows job information with an "Apply" button.
-- Custom rate-limiting for bot protection.
+- 📋 Shows job information with an "Apply" button.
+- 🔐 Custom rate-limiting for bot protection.
 
-### 🗂️ **CRUD Functionality**
-- Create, view, edit, and delete posted jobs.
+### 🛠️ **CRUD Functionality**
+- ✏️ Create, view, edit, and delete posted jobs.
 
 ---
 
@@ -69,9 +69,9 @@ Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier t
 ---
 
 ## 🎨 **UI Highlights**
-- Fully responsive design for seamless use across devices.
-- Modern and clean architecture with performance optimization.
-- TailwindCSS and Shadcn UI for a polished look.
+- 📱 Fully responsive design for seamless use across devices.
+- 🖌️ Modern and clean architecture with performance optimization.
+- 🎨 TailwindCSS and Shadcn UI for a polished look.
 
 ---
 
