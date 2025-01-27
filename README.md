@@ -1,10 +1,10 @@
-# 🚀 CareerFlow: Job Board SaaS with Next.js, Inngest, Arcjet, and TailwindCSS
+# 🚀 **CareerFlow**: Job Board SaaS with Next.js, Inngest, Arcjet, and TailwindCSS
 
 Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier technologies to provide a seamless experience for job seekers and organizations. Whether you're a developer expanding your portfolio or a business recruiting top talent, **CareerFlow** is the solution for you. 🌟
 
 ---
 
-## 🌟 Features
+## 🌟 **Features**
 
 ### 🔐 **Authentication & Security**
 - **Arcjet Security**: Protects against XSS, SQL injection, and other common attacks.
@@ -46,7 +46,7 @@ Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier t
 - Custom rate-limiting for bot protection.
 
 ### 🗂️ **CRUD Functionality**
-- View, edit, and delete posted jobs.
+- Create, view, edit, and delete posted jobs.
 
 ---
 
@@ -75,49 +75,45 @@ Welcome to **CareerFlow**! This cutting-edge Job Board SaaS leverages top-tier t
 
 ---
 
-## 📬 **Background Workflow**
+## 💬 **Contributing 🌍**
 
-Powered by **Inngest**, the application sends a summary of new job postings every two days for a period of 30 days.
+We welcome all contributions! Here's how you can contribute:
 
----
-
-## 📄 **Job Listings**
-
-- Filter, paginate, and view all active job postings.
-- Mark jobs as favorites for easy access.
-
----
-
-## 📂 **CRUD Operations**
-
-Organizations can:
-- Create, view, edit, and delete job postings.
-
----
-
-## ⭐ **Additional Features**
-- **Job Details Page**: Includes detailed job info with an "Apply" button.
-- **Rate Limiting**: Enhanced limits for authenticated users and bot protection.
-- **Job Expiration**: Automatically marks jobs as expired.
+1. 🍴 **Fork the repository.**
+2. 🌿 **Create a new branch**:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. 🖊️ **Commit your changes**:
+    ```bash
+    git commit -m "Add your feature"
+    ```
+4. 🚀 **Push the branch**:
+    ```bash
+    git push origin feature-branch
+    ```
+5. 🔀 **Open a pull request.**
 
 ---
 
-## 🌐 **Deployment**
+## 📧 **Contact ✉️**
 
-Easily deploy **CareerFlow** to **Vercel** for a production-ready application.
+For any questions or feedback, feel free to contact me:
 
----
-
-## 💬 **Connect with Me**
-
-- 🌟 [Arcjet](https://launch.arcjet.com/hIZ0QxX)
-- 🚀 [Inngest](https://innge.st/yt-jm-1)
+- 📧 **Email**: [soumojitbanerjee22@gmail.com](mailto:soumojitbanerjee22@gmail.com)
 
 ---
 
-## 📜 **License**
+## 👨‍💻 **Made by [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)** 💼
 
-This project is licensed under the [MIT License](LICENSE).
+Feel free to connect with me:  
+🔗 [**LinkedIn**](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)  
+
+---
+
+## ❤️ **Special Thanks 🙏**
+
+A special thanks to **ChatGPT** for all your support in completing this project! 🌟
 
 ---
 
